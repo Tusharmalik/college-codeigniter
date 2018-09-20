@@ -1,0 +1,315 @@
+/* Header above logo */
+.w3_agile_banner_top{
+        background: #262328;
+}
+.agile_phone_mail{
+    text-align:right;
+}
+html, body{
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background:#ffffff;
+    margin: 0;
+}
+ul.agile_forms {
+    float: left;
+}
+ul,label{
+    margin:0;
+    padding:0;
+}
+.agile_phone_mail{
+    text-align:right;
+}
+.agile_phone_mail ul li{
+      display: inline-block;
+    padding: 6px 20px;
+    border-left: 1px solid #353b3e;
+    color: #fff;
+    letter-spacing: 1px;
+}
+p,ul li,ol li{
+    margin:0;
+    font-size:14px;
+        letter-spacing: 1px;
+}
+.agile_phone_mail ul li a {
+    text-decoration: none;
+    color: #efeaea;
+}
+/*.black{
+    display: inline-block;
+    padding: 6px 20px;
+    border-left: 1px solid #353b3e;
+    letter-spacing: 1px;
+    background-color: #000;
+}
+.black a{
+    text-decoration: none;
+    color: #efeaea;
+}
+.white{
+    display: inline-block;
+    padding: 6px 20px;
+    border-left: 1px solid #353b3e;
+    letter-spacing: 1px;
+    background-color: #fff;
+}
+.white a{
+    text-decoration: none;
+    color: #000;
+}*/
+.agile_phone_mail ul li i{
+    padding-right:1em;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* header above logo end here */
+
+/*banner*/
+/****** JiSlider css ******/
+    #JiSlider {
+                width: 100%;
+                height: 100%;
+            }
+.jislider ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style-type: none;
+}
+
+.jislider ul li {
+    position: relative;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.jislider__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.jislider__left-arrow {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.jislider__left-arrow__top {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 30px;
+    background-color: inherit;
+    -webkit-transform: rotate(30deg) translateX(10px) translateY(-3px);
+    -ms-transform: rotate(30deg) translateX(10px) translateY(-3px);
+    transform: rotate(30deg) translateX(10px) translateY(-3px);
+}
+
+.jislider__left-arrow__bottom {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 30px;
+    background-color: inherit;
+    -webkit-transform: rotate(-30deg) translateX(10px) translateY(3px);
+    -ms-transform: rotate(-30deg) translateX(10px) translateY(3px);
+    transform: rotate(-30deg) translateX(10px) translateY(3px);
+}
+
+
+.jislider__right-arrow {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.jislider__right-arrow__top {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 30px;
+    background-color: inherit;
+    -webkit-transform: rotate(-30deg) translateX(-10px) translateY(-3px);
+    -ms-transform: rotate(-30deg) translateX(-10px) translateY(-3px);
+    transform: rotate(-30deg) translateX(-10px) translateY(-3px);
+}
+
+.jislider__right-arrow__bottom {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 2px;
+    height: 30px;
+    background-color: inherit;
+    -webkit-transform: rotate(30deg) translateX(-10px) translateY(3px);
+    -ms-transform: rotate(30deg) translateX(-10px) translateY(3px);
+    transform: rotate(30deg) translateX(-10px) translateY(3px);
+}
+
+.jislider__controller {
+    position: absolute;
+    max-width: 80%;
+    padding: 0 30px;
+    left:0%;
+    right: 0;
+    bottom: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.jislider__button {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff!important;
+}
+.jislider__button.jislider__on{
+    background:#33cc99!important;
+    border:2px solid #33cc99!important;
+    height:2px;
+    width:40px;
+    border-radius:0px!important;
+}
+.jislider__controller {
+    width: 200px!important;
+}
+/*--start-responsive-design--*/
+
+@media (max-width:600px){
+    .jislider__left-arrow {
+        position: absolute;
+        left: 10px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 30px;
+        height: 60px;
+        cursor: pointer;
+    }
+    .jislider__right-arrow {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 30px;
+        height: 60px;
+        cursor: pointer;
+    }
+}
+@media (max-width:480px){
+
+    
+}
+@media (max-width:414px){
+
+}
+@media (max-width:384px){
+
+}
+@media (max-width:320px){
+
+}
+
+ul,label{
+    margin:0;
+    padding:0;
+}
+
+p,ul li,ol li{
+    margin:0;
+    font-size:14px;
+        letter-spacing: 1px;
+}
+.w3layouts-banner-top{
+    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background-size: cover; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;      
+    -moz-background-size: cover;
+    min-height:700px;
+}
+.w3layouts-banner-top1{
+    background: url(../images/banner1.jpg) no-repeat 0px 0px;
+    background-size: cover; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;      
+    -moz-background-size: cover;
+    min-height:700px;
+}
+.w3layouts-banner-top2{
+    background: url(../images/banner2.jpg) no-repeat 0px 0px;
+    background-size: cover; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;      
+    -moz-background-size: cover;    
+    min-height:700px;
+}
+.agileits-banner-info {
+    text-align:center;
+    padding: 18em 0 0em;
+}
+.agileits-banner-info span {
+    background:#ef5734;
+    padding: 0.5em 2em;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 5px 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.agileits-banner-info h3 {
+    color: #fff;
+    font-size: 5.5em;
+    margin: 0.3em 0 0.2em 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight:800;
+    text-shadow: 1px 1px 2px rgb(12, 12, 12);
+    -webkit-text-shadow: 1px 1px 2px rgb(12, 12, 12);
+    -o-text-shadow: 1px 1px 2px rgb(12, 12, 12);
+    -moz-text-shadow: 1px 1px 2px rgb(12, 12, 12);   
+}

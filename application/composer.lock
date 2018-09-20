@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6b0953eb0d0bd1068d8fcf863a019a29",
+    "packages": [
+        {
+            "name": "yidas/codeigniter-model",
+            "version": "2.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yidas/codeigniter-model.git",
+                "reference": "175356b8421542c1691387c5e28b0a6ff6306a27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yidas/codeigniter-model/zipball/175356b8421542c1691387c5e28b0a6ff6306a27",
+                "reference": "175356b8421542c1691387c5e28b0a6ff6306a27",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "project",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "CodeIgniter 3 ORM Base Model pattern with My_model example",
+            "homepage": "https://github.com/yidas/codeigniter-model",
+            "keywords": [
+                "MY_Model",
+                "base model",
+                "codeigniter",
+                "model"
+            ],
+            "time": "2018-08-29T02:53:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

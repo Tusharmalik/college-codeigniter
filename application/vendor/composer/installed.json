@@ -1,0 +1,41 @@
+[
+    {
+        "name": "yidas/codeigniter-model",
+        "version": "2.11.0",
+        "version_normalized": "2.11.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yidas/codeigniter-model.git",
+            "reference": "175356b8421542c1691387c5e28b0a6ff6306a27"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yidas/codeigniter-model/zipball/175356b8421542c1691387c5e28b0a6ff6306a27",
+            "reference": "175356b8421542c1691387c5e28b0a6ff6306a27",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2018-08-29T02:53:11+00:00",
+        "type": "project",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "CodeIgniter 3 ORM Base Model pattern with My_model example",
+        "homepage": "https://github.com/yidas/codeigniter-model",
+        "keywords": [
+            "MY_Model",
+            "base model",
+            "codeigniter",
+            "model"
+        ]
+    }
+]
