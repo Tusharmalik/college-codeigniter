@@ -60,7 +60,7 @@
     
     <div class="row">
       <div class="col-md-4">
-          <img src="../../static/images/campus_life/socity/cse/Techno_Logo_nbg_CGe1IOB.png" class="img-resposive" width="320"></img>
+          <img src="<?php echo base_url();?>image/campus life/student_socity/Techno Logo nbg.png" class="img-resposive" width="320"></img>
         </div>
               <div class="col-md-8"><br><br>
           <h4><p align="justify">
@@ -71,7 +71,7 @@
     
     <div class="row">
       <div class="col-md-4">
-          <img src="../../static/images/campus_life/socity/cse/programming_club.jpg" class="img-resposive" width="320"></img>
+          <img src="<?php echo base_url();?>image/campus life/student_socity/programming_club.jpg" class="img-resposive" width="320"></img>
         </div>
               <div class="col-md-8"><br><br>
           <h4><p align="justify">
@@ -92,11 +92,11 @@
     <h3>
     <ul>
       
-        <li><a href="../../static/pdf/campus_life/socity/me/SAE_club_AomBWKR.pdf" target="_blank">SAE Club</a></li><br>
+        <li><a href="<?php echo base_url();?>image/campus life/student_socity/SAE club.pdf" target="_blank">SAE Club</a></li><br>
       
-        <li><a href="../../static/pdf/campus_life/socity/me/robotics_club_i2ky4Un.pdf" target="_blank">Robotics Club</a></li><br>
+        <li><a href="<?php echo base_url();?>image/campus life/student_socity/robotics club.pdf" target="_blank">Robotics Club</a></li><br>
       
-        <li><a href="../../static/pdf/campus_life/socity/me/autodesk_and_engineering_club_CAUIdJ6.pdf" target="_blank">AutoDesk and Engineering Club</a></li><br>
+        <li><a href="<?php echo base_url();?>image/campus life/student_socity/autodesk and engineering club.pdf" target="_blank">AutoDesk and Engineering Club</a></li><br>
       
     </ul>
     </h3>
@@ -111,11 +111,11 @@
     
     <div class="row">
       <div class="col-md-4">
-          <img src="../../static/images/campus_life/socity/ece/elec_4eO9mVR.jpg" class="img-resposive" width="300"></img>
+          <img src="<?php echo base_url();?>image/campus life/student_socity/elec.jpg" class="img-resposive" width="300"></img>
         </div>
               <div class="col-md-8">
           <h4><p align="justify">
-            <b><a href="../../static/pdf/campus_life/socity/ece/ece_student_society_sikYvyc.pdf" target="_blank">ELECTROPHILA</a>, </b>ELECTROPHILA, Electronic society in the college has been established in Mar-2009 and is engaged in various outside activities to nurture and enhance the technical skills and encourage the students to consolidate their interest in Electronics and related fields. No. of quizes on electronics have been using simple IC&#39;s like NE 555 or OP Amps and advance devices like micro controllers have been conducted. ELECTROPHILA members are very active in tech. fest held in various colleges under UPTU as well as in IITs and NIITs.A team comprising of 4 members of the society drawn from 2nd and 3rd year have brought themselves laurels by coming 4th in Robotic Hardware implementation and competition at All INDIA level held at IIT Kanpur from 11th Feb to 14th-Feb-2010. Society has organised a workshop on &quot;Practical Electronics&quot; in association with &quot;M/S BlueInk Infotech Pvt. Ltd.&quot;.</p></h4>
+            <b><a href="<?php echo base_url();?>image/campus life/student_socity/ece_student_society.pdf" target="_blank">ELECTROPHILA</a>, </b>ELECTROPHILA, Electronic society in the college has been established in Mar-2009 and is engaged in various outside activities to nurture and enhance the technical skills and encourage the students to consolidate their interest in Electronics and related fields. No. of quizes on electronics have been using simple IC&#39;s like NE 555 or OP Amps and advance devices like micro controllers have been conducted. ELECTROPHILA members are very active in tech. fest held in various colleges under UPTU as well as in IITs and NIITs.A team comprising of 4 members of the society drawn from 2nd and 3rd year have brought themselves laurels by coming 4th in Robotic Hardware implementation and competition at All INDIA level held at IIT Kanpur from 11th Feb to 14th-Feb-2010. Society has organised a workshop on &quot;Practical Electronics&quot; in association with &quot;M/S BlueInk Infotech Pvt. Ltd.&quot;.</p></h4>
         </div>
     </div>
     <br><br>
@@ -131,7 +131,7 @@
     <h3>
     <ul>
       
-        <li><a href="../../" target="_blank">Elegant Spark</a></li><br>
+        <li><a href="#" target="_blank">Elegant Spark</a></li><br>
       
     </ul>
     </h3>
@@ -147,7 +147,7 @@
     <h3>
     <ul>
       
-        <li><a href="../../static/pdf/campus_life/socity/ce/Nirman_Clubcivil_M6GWAC2.pdf" target="_blank">Nirman Club</a></li><br>
+        <li><a href="<?php echo base_url();?>image/campus life/student_socity/Nirman Club(civil).pdf" target="_blank">Nirman Club</a></li><br>
       
     </ul>
     </h3>

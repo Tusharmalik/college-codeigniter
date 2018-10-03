@@ -31,14 +31,14 @@
       
       <div class="row">
       <div class="col-md-6">
-          <img src="../../static/images/campus_life/library/1_8vO8XxK.jpg"> </img>
+          <img src="<?php echo base_url();?>image/campus life/library/1.jpg"> </img>
       </div>
       
       
       
       
         <div class="col-md-6">
-            <img src="../../static/images/campus_life/library/2_cUkiWNv.jpg"> </img>
+            <img src="<?php echo base_url();?>image/campus life/library/2.jpg"> </img>
         </div>
         </div><br>
       
@@ -46,14 +46,14 @@
       
       <div class="row">
       <div class="col-md-6">
-          <img src="../../static/images/campus_life/library/3_Mu5epZW.jpg"> </img>
+          <img src="<?php echo base_url();?>image/campus life/library/3.jpg"> </img>
       </div>
       
       
       
       
         <div class="col-md-6">
-            <img src="../../static/images/campus_life/library/4_BfoPDWF.jpg"> </img>
+            <img src="<?php echo base_url();?>image/campus life/library/4.jpg"> </img>
         </div>
         </div><br>
       
@@ -61,14 +61,14 @@
       
       <div class="row">
       <div class="col-md-6">
-          <img src="../../static/images/campus_life/library/5_PDdJB6v.jpg"> </img>
+          <img src="<?php echo base_url();?>image/campus life/library/5.jpg"> </img>
       </div>
       
       
       
       
         <div class="col-md-6">
-            <img src="../../static/images/campus_life/library/6_sdWAcyd.jpg"> </img>
+            <img src="<?php echo base_url();?>image/campus life/library/6.jpg"> </img>
         </div>
         </div><br>
       

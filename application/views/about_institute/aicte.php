@@ -2,14 +2,9 @@
     <h1>AICTE Approval </h1>
   <br>
   
-  
-    <a href="../../static/pdf/about_institute/Aicte/EOA_Report_2004-05_CYe6wZk.pdf" target="_blank"><h3>Approval for academic year 2004-05</h3></a>
-  
-  
-  
-    <a href="../../static/pdf/about_institute/Aicte/EOA_Report_2005-06.pdf" target="_blank"><h3>Approval for academic year 2005-06</h3></a>
-  
-  
+  <?php foreach ($aicte as $aicte): ?>
+  <a href="<?php echo base_url();echo $aicte['link'];?>" target="_blank"><h3><?php echo $aicte['text'];?></h3></a>
+  <?php endforeach; ?>
     <br>
     <br><br>
 </div>

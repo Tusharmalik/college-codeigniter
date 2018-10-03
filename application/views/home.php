@@ -9,23 +9,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
+                <?php foreach ($scroller as $scroller): ?>
+                    <?php if($scroller['id']==$id->id):?>
                     <div class="item active">
-                        <img class="animated jackInTheBox" src="image/home/scroller/college_top.jpg" alt="College2" style="height: 500px;width: 100%">
+                <?php else: ?>
+                    <div class="item">
+                <?php endif; ?>
+                    <img class="animated jackInTheBox" src="<?php echo base_url();?><?php echo $scroller['pic'];?>" alt="College2" style="height: 500px;width: 100%">
+                    <div class="carousel-caption">
+                        <h3><?php echo $scroller['text'] ?></h3>
                     </div>
-                    <?php
-                    $path = 'image/home/scroller/';
-                    $file = scandir($path);
-                    $file = array_diff($file, [".",".."] );
-                    foreach ($file as $value) {
-//                        echo $path.$value;
-                        ?>
-                        <div class="item">
-                            <img class="animated jackInTheBox" src="<?php echo $path.$value;?>" alt="College1" style="height: 500px;width: 100%">
-                        </div>
-                    <?php
-                    }
-                    ?>
-
+                    </div>
+                <?php endforeach; ?>
                     
                 </div>
                 <!-- Left and right controls -->

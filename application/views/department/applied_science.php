@@ -82,7 +82,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
             
     <div class="row">
       <div class="col-md-4" align="center">
-        <img class="img-responsive" src="../../static/images/departments/As/hod/photo_Rashid_Sir_1DaoFOh.JPG" width="250"><br><br>
+        <img class="img-responsive" src="<?php echo base_url();?>image/department/As/hod/photo_Rashid_Sir.JPG" width="250"><br><br>
         </div>
         <div class="col-md-8">
         <h4><b><a href="#" target="_blank">Dr. Rashid Ali</a></b></h4>
@@ -104,7 +104,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
   
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/photo_Rashid_Sir.JPG" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>image/department/As/hod/photo_Rashid_Sir.JPG" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/17" target="_blank"><h3>Dr. Rashid Ali</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -116,7 +116,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/manisha.JPG" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>image/department/Departments/AS Deptt/manisha.JPG" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/18" target="_blank"><h3>Dr. Manisha Pachauri</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -128,7 +128,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Arpita_Gupta_Photo.JPG" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>image/department/Departments/AS Deptt/Arpita_Gupta_Photo.JPG" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/19" target="_blank"><h3>Dr. Arpita Gupta</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -140,7 +140,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Rakesh_Arora_Photo.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/Rakesh_Arora_Photo.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/20" target="_blank"><h3>Dr. Rakesh Arora</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -155,7 +155,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Ashish_Mishra.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/Ashish_Mishra.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/21" target="_blank"><h3>Mr. Ashish Mishra</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -167,7 +167,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Shubhra_Goel.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/Shubhra_Goel.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/22" target="_blank"><h3>Ms. Shubhra Aggarwal</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -179,7 +179,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/lalit.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/lalit.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/23" target="_blank"><h3>Dr. Lalit Kumar Gupta</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -191,7 +191,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/shalini.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/shalini.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/24" target="_blank"><h3>Ms. Shalini Malik</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -206,7 +206,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/priyanka.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/priyanka.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/25" target="_blank"><h3>Dr. Priyanka Rai</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -218,7 +218,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/ganesh.png" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/ganesh.png" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/26" target="_blank"><h3>Dr. Ganesh Kumar Thakur</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -230,7 +230,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/RAM_BHARAT2.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/RAM_BHARAT2.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/27" target="_blank"><h3>Dr. Ram Bharat Singh</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -242,7 +242,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/rana.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/rana.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/28" target="_blank"><h3>Mr. Dushyant Kumar Rana</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -257,7 +257,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/sanjay_kumar.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/sanjay_kumar.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/29" target="_blank"><h3>Mr. Sanjay Kumar</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -269,7 +269,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Sandeep_Photo.JPG" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/Sandeep_Photo.JPG" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/30" target="_blank"><h3>Mr. Sandeep Kumar</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -281,7 +281,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/sajid_ali.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/sajid_ali.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/31" target="_blank"><h3>Dr. Sajid Ali</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -293,7 +293,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Arun_Vashishtha_Photo.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/Arun_Vashishtha_Photo.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/32" target="_blank"><h3>Mr. Arun Vashishtha</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -308,7 +308,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/reetuka.JPG" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/reetuka.JPG" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/33" target="_blank"><h3>Dr. Reetuka Raj</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -320,7 +320,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Bandana_Photo.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>../../static/img/faculty/Bandana_Photo.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/34" target="_blank"><h3>Ms. Bandana</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -332,7 +332,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Sachendra_Photo.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/Sachendra_Photo.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/35" target="_blank"><h3>Mr. Sachendra</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -344,7 +344,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Devesh_Tripathi.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/Devesh_Tripathi.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/36" target="_blank"><h3>Mr. Devesh Tripathi</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -359,7 +359,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/purnima.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/purnima.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/37" target="_blank"><h3>Ms. Purnima Pandey</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -371,7 +371,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Manish_Singhal_Photo.JPG" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/Manish_Singhal_Photo.JPG" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/38" target="_blank"><h3>Mr. Manish Singhal</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -383,7 +383,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/vivek_gupta.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/vivek_gupta.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/39" target="_blank"><h3>Mr. Vivek Gupta</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -395,7 +395,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/kavita_tiwari_AS.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/kavita_tiwari_AS.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/40" target="_blank"><h3>Dr. Kavita Tiwari</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -410,7 +410,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Hari_Mohan_Rai_Photo.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/Hari_Mohan_Rai_Photo.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/41" target="_blank"><h3>Mr. Hari Mohan Rai</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -422,7 +422,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Anurag_Kumar_Photo.JPG" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/Anurag_Kumar_Photo.JPG" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/42" target="_blank"><h3>Mr. Anurag Kumar</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -434,7 +434,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/Anchala_photo.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/Anchala_photo.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/43" target="_blank"><h3>Dr. Anchala</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -446,7 +446,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/neha_6elX3hO.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/neha_6elX3hO.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/44" target="_blank"><h3>Ms. Neha Tyagi</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -461,7 +461,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/divyanshu.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/divyanshu.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/45" target="_blank"><h3>Mr. Divyanshu Pandit</h3></a>
                 <b><p>Asst. Professor</p></b>
@@ -473,7 +473,7 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
     
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="faculty" src="../../static/img/faculty/bhawanarathiEC.jpg" style="max-height: 180px">
+                <img class="faculty" src="<?php echo base_url();?>static/img/faculty/bhawanarathiEC.jpg" style="max-height: 180px">
                 <div class="caption">
                 <a href="/departments/teacher/46" target="_blank"><h3>Ms. Bhawana Rathi</h3></a>
                 <b><p>Asst. Professor</p></b>

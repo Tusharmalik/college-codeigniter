@@ -1,4 +1,5 @@
 <div class="container" id="content">
+<div align="center"><img src="<?php echo base_url();?>image/about_institute/vission_mission/vision_mission1.png"></div>
   <h2><b>Vision</b></h2>
   <p align="justify">To create and establish an Institution that will turn out scholars adept at responding to changes brought about by globalization, be they technological, societal or paradigm shifts in business processes. In conclusion, the scholars will be global players in all respects when they leave the portals of Krishna Engineering College.</p>
   <br>

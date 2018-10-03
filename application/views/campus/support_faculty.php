@@ -103,14 +103,14 @@
       
       <div class="row">
       <div class="col-md-6">
-          <img src="../../static/images/campus_life/canteen/_DSC0435_A0GMgUb.JPG"> </img>
+          <img src="<?php echo base_url();?>image/campus life/canteen/_DSC0435.JPG"> </img>
       </div>
       
       
       
       
         <div class="col-md-6">
-            <img src="../../static/images/campus_life/canteen/_DSC0462_E2tK1ZZ.JPG"> </img>
+            <img src="<?php echo base_url();?>image/campus life/canteen/_DSC0462.JPG"> </img>
         </div>
         </div><br>
       
@@ -118,7 +118,7 @@
       
       <div class="row">
       <div class="col-md-6">
-          <img src="../../static/images/campus_life/canteen/_DSC0470_d7px8R7.JPG"> </img>
+          <img src="<?php echo base_url();?>image/campus life/canteen/_DSC0470.JPG"> </img>
       </div>
       
     </div><br>

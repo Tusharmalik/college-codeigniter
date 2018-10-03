@@ -16,14 +16,14 @@
     
     <div class="row">
       <div class="col-md-3">
-          <img class="img-responsive" src="../../static/images/training_and_placement/overview/renu_gautam_i8nCRcB.jpg">
+          <img class="img-responsive" src="<?php echo base_url(); echo $overview['image']; ?>">
         </div>
         <div class="col-md-9">
         
         
-        <h4><b>Ms. Renu Gautam (Placement Head)</b></h4><br><br>
+        <h4><b><?php echo $overview['heading']; ?></b></h4><br><br>
 <p align="justify">
-“The Sole aim of Training &amp; Placement Cell is to make KEC the center of excellence in the region and nodal centre for the placement activities in this part of the country and beyond”. The students of Campus Recruitment process for the B.Tech final year students are eagerly awaiting to take their final step into a world that holds promises for them. We deem it our pleasure to invite your esteemed organization for participation in the Campus Recruitment Programme of this Institute. I take this opportunity to mention that the placement level achieved for the previous batches has been above 70%. Needless to say that the visiting team will be provided all assistance to accomplish the goal of quality selection of personnel for your Company. The Institute provides excellent infrastructure to support placement process”. <br><br></p>
+<?php echo $overview['text'];?> <br><br></p>
     </div>
     </div>
     
