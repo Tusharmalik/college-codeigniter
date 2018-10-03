@@ -74,10 +74,10 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
+	'dsn'	=> 'http://142.93.210.138',
 	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => '',
+	'password' => 't',
 	'database' => 'codeigniter',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

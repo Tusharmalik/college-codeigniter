@@ -11,7 +11,7 @@
   </tr>
   
   <?php foreach ($team as $team_val):?>
-  <?if ($team_val['finishing_school_team'] == 1):?>
+  <?php if($team_val['finishing_school_team'] == 1):?>
   <tr>
     <td width="35%" align="center"><img src="<?php echo base_url();echo $team_val['image'];?>" height="200" width="200"></td>
     <td width="6%">&nbsp;</td>
@@ -29,6 +29,7 @@
     <td>&nbsp;</td>
     <td>&nbsp;</td>
   </tr>
+<?php else: ?>
 <?php endif;?>
 <?php endforeach;?>
   
@@ -44,7 +45,7 @@
   </tr>
   
   <?php foreach ($team as $team_finish):?>
-  <?if ($team_finish['finishing_school_team'] == 0): ?>
+  <?php if($team_finish['finishing_school_team'] == 0): ?>
   <tr>
     <td align="center"><img src="<?php echo base_url();echo $team_finish['image'];?>" height="200" width="200"></td>
     <td>&nbsp;</td>
