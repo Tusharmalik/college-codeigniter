@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 03, 2018 at 07:20 PM
+-- Generation Time: Oct 09, 2018 at 01:31 AM
 -- Server version: 5.7.23-0ubuntu0.18.04.1
 -- PHP Version: 7.2.10-0ubuntu0.18.04.1
 
@@ -129,6 +129,77 @@ INSERT INTO `about_overview` (`id`, `heading`, `paragraph`, `brochur`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `department_hod`
+--
+
+CREATE TABLE `department_hod` (
+  `id` int(11) NOT NULL,
+  `name` varchar(300) NOT NULL,
+  `qualification` varchar(500) NOT NULL,
+  `message` text NOT NULL,
+  `image` varchar(500) NOT NULL,
+  `department` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `department_hod`
+--
+
+INSERT INTO `department_hod` (`id`, `name`, `qualification`, `message`, `image`, `department`) VALUES
+(1, 'Dr. Pramod Kumar', 'Ph.D in Computer Science & Engineering\r\n', 'Welcome to the Department of Computer Science and Engineering. In this department we create future computer engineers and responsible citizens.As Head of Department, I feel privileged to be leading a talented group of devoted faculty members. Our faculty, staff and students consistently show a strong commitment to excellence in research, teaching and service. Our students are the best of the best. A very friendly and congenial atmosphere exists for fostering a healthy teacher-student relationship.Here, students get the opportunity to excel in his academic activities. In our departments undergraduate students publish papers in international journals. At the same time, a student wishing to achieve some recognition in extra-curricular or co-curricular activities will also find the atmosphere helpful. We hold firm belief in our ability to succeed, and we nurture an attitude of self-reliance, confidence, commitment and responsibility to the motherland that we are to serve. Such is the psychology behind the department in effect. Department of Computer Science & Engineering believes in building career, enriching minds and provides a remarkable experience that lasts a life time. I am confident that the students of the department justify the credibility of the department by showing a high level of professional competence. Have a nice stay here and please achieve the best.', 'image/department/Cse/hod/pramod.jpg', 'computer_science'),
+(2, 'Dr. Pramod Kumar', 'Ph.D in Computer Science & Engineering\r\n', 'Welcome to the Department of Computer Science and Engineering. In this department we create future computer engineers and responsible citizens.As Head of Department, I feel privileged to be leading a talented group of devoted faculty members. Our faculty, staff and students consistently show a strong commitment to excellence in research, teaching and service. Our students are the best of the best. A very friendly and congenial atmosphere exists for fostering a healthy teacher-student relationship.Here, students get the opportunity to excel in his academic activities. In our departments undergraduate students publish papers in international journals. At the same time, a student wishing to achieve some recognition in extra-curricular or co-curricular activities will also find the atmosphere helpful. We hold firm belief in our ability to succeed, and we nurture an attitude of self-reliance, confidence, commitment and responsibility to the motherland that we are to serve. Such is the psychology behind the department in effect. Department of Computer Science & Engineering believes in building career, enriching minds and provides a remarkable experience that lasts a life time. I am confident that the students of the department justify the credibility of the department by showing a high level of professional competence. Have a nice stay here and please achieve the best.', 'image/department/It/hod/pramod.jpg', 'information_technology'),
+(3, 'Dr. Rashid Ali', 'Ph.D in Mathematics\r\n', '\"Krishna Engineering College, Ghaziabad is a centre of erudition where we nurture young talents in different fields of Engineering. Our major emphasis of imparting technical training to encourage curiosity and innovativeness among our students and lay a foundation from where they can acquire quick learning ability and adaptively with the fast changing needs of the industry. Our faculty members are experts in the areas they teach. Not only do they provide a solid grounding in the academic theories and concepts of their specialty, they also provide the students challenges facing their discipline. They provide the students the right balance of theory and practice. We emphasize team work to give opportunity to each student to benefit from the ideas and intelligence of their classmates. We continue to strive to meet our mission to mould youth into world-class technocrats of tomorrow who would endeavor to increase the quality of life for human kind. I am confident that our students would be asset to your organization through their technical and managerial capabilities. My aim is to actively assist you in attracting and identifying the individuals best suited to your needs and developing a successful recruitment relationship.\"', 'image/department/As/hod/photo_Rashid_Sir.JPG', 'applied_science'),
+(4, 'Dr. A.N. Mishra ', 'Ph.D in Electronics and Communication Engineering\r\n', 'The fast advancing world expects a student to be aware of latest technologies in the world. An engineer not only should be able to write and speak well but should also possess ability to work with own hands and guide his juniors. He should be a leader and need to lead by actions. These qualities are possible only if students start feeling like an engineer and a responsible person and performs all roles expected of them to the best of their abilities. Students should sincerely attend extra classes like PDP, concept clearing etc. apart from regular classes, to be able to prepare team for outside world.', 'image/department/Ece/hod/Mishra_sir_xtnFQU9.jpg', 'electronic_communication'),
+(5, 'Dr. A.N. Mishra', 'Ph.D in Electronics and Communication Engineering', 'Electricity is a form of energy and it occurs in nature. Benjamin Franklin, English Physician William Gilbert and Michael Faraday contributed in various measures to make vital use of electricity in technology.This, combined with discovery of Thomas Edison to produce the first practical filament lamp to eliminate New York electricity street lamps in 1882, were the starting steps for use of electricity impacting human lives. This process progressed by leaps and bounds and electricity as on date has become an essential requirement for all activities related to all spheres of human life. Electricity combined with Electronics has invaded in all activity of the world.The major contribution in improving the quality of life in the past and present century has been made by electricity and electronics. Electrical & Electronics Engineering department of KEC is having on its rolls the IITan faculty and researchers of repute.Students of EN department have performed exceptionally well in academics and brought laurels to the college by participating in various competitions in India and abroad. For example two students of EN department Ms. Chinki Kumari & Mr. Ish Ghai participated in NASA’ 17th Annual Great Moonbuggy Race held at the U.S. Space & Rocket Center in Huntsville, Alabama on 9th & 10th April 2010 and bagged prize in the category of “Best performance by an International Team”. I wish that the department with contribution of faculty grows strong with each passing day and students become global players by acquiring academic qualifications and other skills.', 'image/department/Ee/hod/Mishra_sir_eJOg113.jpg', 'electrical'),
+(6, 'Prof. (Dr.) Sanjeev Kumar', 'Ph.D in Mechanical Engineering', 'I feel proud to introduce you to Department of Mechanical Engineering at Krishna Engineering College. Our Department provides a quality learning environment, in terms of academic standards and practical knowledge. The department has good infrastructure and is equipped with state of the art laboratories. The department has faculty members who have vast experience in their field. The faculty has succeeded in keeping a lively atmosphere among the students, with timely up gradations in the curriculum and innovative teaching techniques. Emphasis is also laid on making student innovative and acquires requisite skills to be successful entrepreneurs. Our goal is to provide students with a balance of intellectual and practical experiences that enable them to serve a variety of societal needs. We are highly ambitious, hopeful and optimistic about the future placement scenario of our students. Many of our Alumni are well-placed in reputed organizations. Pursuing cutting-edge and impactful research and development is also an essential feature of the department’s focus to search for realistic solutions. With our distinct student centered teaching-learning methodology, our students will be able to face challenges of life. Students are encouraged to indulge in extracurricular activities to shape them as leaders of tomorrow. All these efforts are followed ambitiously to develop the overall personality of the students so as to equip to face the challenges of the competitive world. I would like to conclude by saying “It doesn’t take a majority to make a rebellion; it takes only a few determined leaders and a sound cause”. I wish best of luck to all the students.', 'image/department/Mechanical/hod/sanjeev_Kumar.jpg', 'mechanical'),
+(7, 'Dr. Archana Pandey', 'Ph.D in Environmental Science', 'Welcome all to the Department of civil engineering. Civil engineering is the oldest and broadest engineering discipline among all the engineering fields i.e. mother of all engineering branches. In today’s scenario a civil engineer should strive to provide a sustainable solution for infrastructural development and build environment. In the Department we have been creating knowledge resources to educate and train youths in the latest technologies in civil engineering, to inculcate in them human values, self confidence and independent thinking in solving different problems in the field of civil engineering so that they can serve the country and the human society at large. To achieve this we are working in different fields of civil engineering like hydraulics & water resources engineering, structural engineering & building construction, environmental engineering, transportation engineering and construction technology & management. Along with academic activities we have been organizing technical events, literally events and cultural events to develop soft skills i.e. interpersonal skills, communication skills and team work in students. So I invite you to fulfill your dreams of being successful and a very fruitful, happening and learning experience of life.', 'image/department/Civil/hod/archanapandey_rDAD3G7.jpg', 'civil'),
+(8, 'Prof Pradip Kr Pathak', 'phd', 'Humanities department deals with the subjects that are mainly concerned with human beings whose behavior is highly unpredictable. The subjects taught by Humanities department are highly interactive, experiential and engaging, designed to empower the learner toward the process of analyzing one\'s life in relationship to the community in which one lives and works. This helps them achieve the expected results quickly and economically in terms of effective and efficient Management in the business dynamics.\r\n\r\nHumanities as a unique field of study are a synergy of economics, political science, human psychology, operations research and statistics as well as sociology. It is therefore, to be understood from all these perspectives. The study becomes more dynamic since it is applicable in a vibrant, ever changing and complex environment. The principles, rules and guidelines covered under the curriculum are so versatile that we find its pervasiveness everywhere. They guide probably in all situations, but their interpretations keep on changing in every such situation and from person to person. The department of Humanities is committed to impart adequate knowledge through interactive sessions, role plays, Management by objective (MBO) and case studies apart from regular lectures on different concepts/theories pertaining to Industrial psychology, Industrial sociology, Industrial Management, Engineering economics, Entrepreneurship development and more importantly Human values & professional ethics. In addition, we inculcate among the students, the habit of learning creative skills through active participation in annual literary fest and publication of college magazine “Impression”. I feel proud to lead an intellectual group of faculties. I am also confident that our students would continue to prove their mettle in professional arena and bring laurels to the Institution as a routine.\r\n\r\nAll the best! May God bless!!!!', 'image/department/Humanities/hod/PK_Pathak1.jpg', 'humanities');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `department_new`
+--
+
+CREATE TABLE `department_new` (
+  `id` int(11) NOT NULL,
+  `title` varchar(300) NOT NULL,
+  `link` varchar(300) NOT NULL,
+  `pdf` varchar(300) NOT NULL,
+  `department` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `department_new`
+--
+
+INSERT INTO `department_new` (`id`, `title`, `link`, `pdf`, `department`) VALUES
+(1, 'new', '', '', 'applied_science');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `department_notice`
+--
+
+CREATE TABLE `department_notice` (
+  `id` int(11) NOT NULL,
+  `title` varchar(300) NOT NULL,
+  `link` varchar(300) NOT NULL,
+  `pdf` varchar(300) NOT NULL,
+  `department` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `department_notice`
+--
+
+INSERT INTO `department_notice` (`id`, `title`, `link`, `pdf`, `department`) VALUES
+(1, 'notice', '', '', 'applied_science');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `scroller`
 --
 
@@ -224,6 +295,24 @@ ALTER TABLE `about_overview`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `department_hod`
+--
+ALTER TABLE `department_hod`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `department_new`
+--
+ALTER TABLE `department_new`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `department_notice`
+--
+ALTER TABLE `department_notice`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `scroller`
 --
 ALTER TABLE `scroller`
@@ -264,6 +353,21 @@ ALTER TABLE `about_management`
 -- AUTO_INCREMENT for table `about_overview`
 --
 ALTER TABLE `about_overview`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `department_hod`
+--
+ALTER TABLE `department_hod`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+--
+-- AUTO_INCREMENT for table `department_new`
+--
+ALTER TABLE `department_new`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `department_notice`
+--
+ALTER TABLE `department_notice`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `scroller`
