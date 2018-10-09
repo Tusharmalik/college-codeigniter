@@ -71,17 +71,17 @@ To produce highly competent and socially conscious information technology profes
             <h2><b>HOD's Message</b></h2>
             <br>
             <div class="row">
-              <div class="col-md-4" align="center">
-                <img class="img-responsive" src="../../static/images/departments/It/hod/pramod.jpg" width="250"><br><br>
-                </div>
-                <div class="col-md-8">
-                <h4><b><a href="#" target="_blank">Dr. Pramod Kumar</a></b></h4>
-                <br>
-                <b>Ph.D in Computer Science &amp; Engineering</b><br><br>
-        <p align="justify">
-        Welcome to the Department of Computer Science and Engineering. In this department we create future computer engineers and responsible citizens.As Head of Department, I feel privileged to be leading a talented group of devoted faculty members. Our faculty, staff and students consistently show a strong commitment to excellence in research, teaching and service. Our students are the best of the best. A very friendly and congenial atmosphere exists for fostering a healthy teacher-student relationship.Here, students get the opportunity to excel in his academic activities. In our departments undergraduate students publish papers in international journals. At the same time, a student wishing to achieve some recognition in extra-curricular or co-curricular activities will also find the atmosphere helpful. We hold firm belief in our ability to succeed, and we nurture an attitude of self-reliance, confidence, commitment and responsibility to the motherland that we are to serve. Such is the psychology behind the department in effect. Department of Computer Science &amp; Engineering believes in building career, enriching minds and provides a remarkable experience that lasts a life time. I am confident that the students of the department justify the credibility of the department by showing a high level of professional competence. Have a nice stay here and please achieve the best.</p><br><br>
-        </div>
-        </div>
+                                  <div class="col-md-4" align="center">
+                                    <img class="img-responsive" src="<?php echo base_url();?><?php echo $hod->image;?>" width="250"><br><br>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <h4><b><a href="#" target="_blank"><?php echo $hod->name;?></a></b></h4>
+                                    <br>
+                                    <b><?php echo $hod->qualification;?></b><br><br>
+                            <p align="justify">
+                            <?php echo $hod->message;?></p><br><br>
+                            </div>
+                            </div>
 
 
             </div>

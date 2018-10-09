@@ -83,17 +83,17 @@ To be a place where students & faculty find a highly motivating environment to s
             <h2><b>HOD's Message</b></h2>
             <br>
             <div class="row">
-              <div class="col-md-4" align="center">
-                <img class="img-responsive" src="../../static/images/departments/Ece/hod/Mishra_sir_xtnFQU9.jpg" width="250"><br><br>
-                </div>
-                <div class="col-md-8">
-                <h4><b><a href="#" target="_blank">Dr. A.N. Mishra</a></b></h4>
-                <br>
-                <b>Ph.D in Electronics and Communication Engineering</b><br><br>
-        <p align="justify">
-        The fast advancing world expects a student to be aware of latest technologies in the world. An engineer not only should be able to write and speak well but should also possess ability to work with own hands and guide his juniors. He should be a leader and need to lead by actions. These qualities are possible only if students start feeling like an engineer and a responsible person and performs all roles expected of them to the best of their abilities. Students should sincerely attend extra classes like PDP, concept clearing etc. apart from regular classes, to be able to prepare team for outside world.</p><br><br>
-        </div>
-        </div>
+                                  <div class="col-md-4" align="center">
+                                    <img class="img-responsive" src="<?php echo base_url();?><?php echo $hod->image;?>" width="250"><br><br>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <h4><b><a href="#" target="_blank"><?php echo $hod->name;?></a></b></h4>
+                                    <br>
+                                    <b><?php echo $hod->qualification;?></b><br><br>
+                            <p align="justify">
+                            <?php echo $hod->message;?></p><br><br>
+                            </div>
+                            </div>
 
 
             </div>

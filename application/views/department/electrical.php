@@ -143,17 +143,17 @@
             <br>
 
             <div class="row">
-              <div class="col-md-4" align="center">
-                <img class="img-responsive" src="../../static/images/departments/Ee/hod/Mishra_sir_eJOg113.jpg" width="250"><br><br>
-                </div>
-                <div class="col-md-8">
-                <h4><b><a href="#" target="_blank">Dr. A.N. Mishra</a></b></h4>
-                <br>
-                <b>Ph.D in Electronics and Communication Engineering</b><br><br>
-        <p align="justify">
-        Electricity is a form of energy and it occurs in nature. Benjamin Franklin, English Physician William Gilbert and Michael Faraday contributed in various measures to make vital use of electricity in technology.This, combined with discovery of Thomas Edison to produce the first practical filament lamp to eliminate New York electricity street lamps in 1882, were the starting steps for use of electricity impacting human lives. This process progressed by leaps and bounds and electricity as on date has become an essential requirement for all activities related to all spheres of human life. Electricity combined with Electronics has invaded in all activity of the world.The major contribution in improving the quality of life in the past and present century has been made by electricity and electronics. Electrical &amp; Electronics Engineering department of KEC is having on its rolls the IITan faculty and researchers of repute.Students of EN department have performed exceptionally well in academics and brought laurels to the college by participating in various competitions in India and abroad. For example two students of EN department Ms. Chinki Kumari &amp; Mr. Ish Ghai participated in NASA’ 17th Annual Great Moonbuggy Race held at the U.S. Space &amp; Rocket Center in Huntsville, Alabama on 9th &amp; 10th April 2010 and bagged prize in the category of “Best performance by an International Team”. I wish that the department with contribution of faculty grows strong with each passing day and students become global players by acquiring academic qualifications and other skills.</p><br><br>
-        </div>
-        </div>
+                                  <div class="col-md-4" align="center">
+                                    <img class="img-responsive" src="<?php echo base_url();?><?php echo $hod->image;?>" width="250"><br><br>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <h4><b><a href="#" target="_blank"><?php echo $hod->name;?></a></b></h4>
+                                    <br>
+                                    <b><?php echo $hod->qualification;?></b><br><br>
+                            <p align="justify">
+                            <?php echo $hod->message;?></p><br><br>
+                            </div>
+                            </div>
 
 
 

@@ -88,17 +88,17 @@ To acquire the knowledge, Department develops suitable theoretical background st
             <br>
 
             <div class="row">
-              <div class="col-md-4" align="center">
-                <img class="img-responsive" src="../../static/images/departments/Mechanical/hod/sanjeev_Kumar.jpg" width="250"><br><br>
-                </div>
-                <div class="col-md-8">
-                <h4><b><a href="#" target="_blank">Prof. (Dr.) Sanjeev Kumar</a></b></h4>
-                <br>
-                <b>Ph.D in Mechanical Engineering</b><br><br>
-        <p align="justify">
-        I feel proud to introduce you to Department of Mechanical Engineering at Krishna Engineering College. Our Department provides a quality learning environment, in terms of academic standards and practical knowledge. The department has good infrastructure and is equipped with state of the art laboratories. The department has faculty members who have vast experience in their field. The faculty has succeeded in keeping a lively atmosphere among the students, with timely up gradations in the curriculum and innovative teaching techniques. Emphasis is also laid on making student innovative and acquires requisite skills to be successful entrepreneurs. Our goal is to provide students with a balance of intellectual and practical experiences that enable them to serve a variety of societal needs. We are highly ambitious, hopeful and optimistic about the future placement scenario of our students. Many of our Alumni are well-placed in reputed organizations. Pursuing cutting-edge and impactful research and development is also an essential feature of the department’s focus to search for realistic solutions. With our distinct student centered teaching-learning methodology, our students will be able to face challenges of life. Students are encouraged to indulge in extracurricular activities to shape them as leaders of tomorrow. All these efforts are followed ambitiously to develop the overall personality of the students so as to equip to face the challenges of the competitive world. I would like to conclude by saying “It doesn’t take a majority to make a rebellion; it takes only a few determined leaders and a sound cause”. I wish best of luck to all the students.</p><br><br>
-        </div>
-        </div>
+                                  <div class="col-md-4" align="center">
+                                    <img class="img-responsive" src="<?php echo base_url();?><?php echo $hod->image;?>" width="250"><br><br>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <h4><b><a href="#" target="_blank"><?php echo $hod->name;?></a></b></h4>
+                                    <br>
+                                    <b><?php echo $hod->qualification;?></b><br><br>
+                            <p align="justify">
+                            <?php echo $hod->message;?></p><br><br>
+                            </div>
+                            </div>
 
 
             </div>

@@ -60,17 +60,17 @@ The vision of the department is to give an exposure to budding civil technocrats
             <bR>
 
               <div class="row">
-                <div class="col-md-4" align="center">
-                  <img class="img-responsive" src="../../static/images/departments/Civil/hod/archanapandey_rDAD3G7.jpg" width="250"><br><br>
-                  </div>
-                  <div class="col-md-8">
-                  <h4><b><a href="#" target="_blank">Dr. Archana Pandey</a></b></h4>
-                  <br>
-                  <b>Ph.D in Environmental Science</b><br><br>
-          <p align="justify">
-          Welcome all to the Department of civil engineering. Civil engineering is the oldest and broadest engineering discipline among all the engineering fields i.e. mother of all engineering branches. In today’s scenario a civil engineer should strive to provide a sustainable solution for infrastructural development and build environment. In the Department we have been creating knowledge resources to educate and train youths in the latest technologies in civil engineering, to inculcate in them human values, self confidence and independent thinking in solving different problems in the field of civil engineering so that they can serve the country and the human society at large. To achieve this we are working in different fields of civil engineering like hydraulics &amp; water resources engineering, structural engineering &amp; building construction, environmental engineering, transportation engineering and construction technology &amp; management. Along with academic activities we have been organizing technical events, literally events and cultural events to develop soft skills i.e. interpersonal skills, communication skills and team work in students. So I invite you to fulfill your dreams of being successful and a very fruitful, happening and learning experience of life.</p><br><br>
-          </div>
-          </div>
+                                  <div class="col-md-4" align="center">
+                                    <img class="img-responsive" src="<?php echo base_url();?><?php echo $hod->image;?>" width="250"><br><br>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <h4><b><a href="#" target="_blank"><?php echo $hod->name;?></a></b></h4>
+                                    <br>
+                                    <b><?php echo $hod->qualification;?></b><br><br>
+                            <p align="justify">
+                            <?php echo $hod->message;?></p><br><br>
+                            </div>
+                            </div>
     <br><br>
     </div>
     

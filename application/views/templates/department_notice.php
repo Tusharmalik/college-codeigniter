@@ -166,19 +166,20 @@
             <div class="container-fluid">
               <div class="col-lg-6 col-md-6 tab-w3layouts">
             <div class="panel panel-default panel-default-new">
-                              <div class="panel-heading panel-heading-left">Notice Board <a class="circular-more" href="/Notice-Board/">More <i class="fa fa-arrow-circle-right"></i></a></div>
+                              <div class="panel-heading panel-heading-left">Notice Board <a class="circular-more" href="#">More <i class="fa fa-arrow-circle-right"></i></a></div>
                               <div class="panel-body whats-new-panel">
                                   <div class="row">
                                       <div class="col-xs-12">
                                           <ul class="porn" style="overflow-y: hidden; height: 250px;">
-                                            
-                                            
-                                            <li class="news-item"><a href="#" class="blinking">hello</a></li>
-                                            
-                                            
-                                            
-                                            <li class="news-item"><a href="#" class="blinking">abcd</a></li>
-                                            
+                                            <?php foreach($notice as $notice):?>
+                                            <?php if ($notice['pdf']):?>
+                                            <li class="news-item"><a href="<?php echo base_url();?><?php echo $notice['pdf'];?>" class="blinking"><?php $notice['title']?></a></li>                                                
+                                            <?php elseif($notice['link']):?>
+                                            <li class="news-item"><a href="<?php echo base_url();?><?php echo $notice['link'];?>" class="blinking"><?php $notice['title']?></a></li>
+                                            <?php else:?>
+                                            <li class="news-item"><a href="#" class="blinking"><?php echo $notice['title']?></a></li>
+                                            <?php endif ;?>
+                                            <?php endforeach;?>
                                             
                                           </ul>
                                       </div>
@@ -189,16 +190,20 @@
 
               <div class="col-lg-6 col-md-6 tab-w3layouts">
             <div class="panel panel-default panel-default-new">
-                              <div class="panel-heading panel-heading-left">What's New <a class="circular-more" href="/Events/">More <i class="fa fa-arrow-circle-right"></i></a></div>
+                              <div class="panel-heading panel-heading-left">What's New <a class="circular-more" href="#">More <i class="fa fa-arrow-circle-right"></i></a></div>
                               <div class="panel-body whats-new-panel">
                                   <div class="row">
                                       <div class="col-xs-12">
                                           <ul class="porn" style="overflow-y: hidden; height: 250px;">
-                                            
-        																		
-        																		<li class="news-item"><a href="#" class="blinking">Techguru Event</a></li>
-        															      
-        																		
+                                          <?php foreach($what_new as $notice):?>
+                                            <?php if ($notice['pdf']):?>
+                                            <li class="news-item"><a href="<?php echo base_url();?><?php echo $notice['pdf'];?>" class="blinking"><?php $notice['title']?></a></li>                                                
+                                            <?php elseif($notice['link']):?>
+                                            <li class="news-item"><a href="<?php echo base_url();?><?php echo $notice['link'];?>" class="blinking"><?php $notice['title']?></a></li>
+                                            <?php else:?>
+                                            <li class="news-item"><a href="#" class="blinking"><?php echo $notice['title']?></a></li>
+                                            <?php endif ;?>
+                                            <?php endforeach;?>									
                                           </ul>
                                       </div>
                                   </div>

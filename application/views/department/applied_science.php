@@ -80,18 +80,18 @@ During the Academic Session 2015-16, 42 students scored more than 80% aggregate 
             <h2><b>HOD's Message</b></h2>
             <br>
             
-    <div class="row">
-      <div class="col-md-4" align="center">
-        <img class="img-responsive" src="<?php echo base_url();?>image/department/As/hod/photo_Rashid_Sir.JPG" width="250"><br><br>
-        </div>
-        <div class="col-md-8">
-        <h4><b><a href="#" target="_blank">Dr. Rashid Ali</a></b></h4>
-        <br>
-        <b>Ph.D in Mathematics</b><br><br>
-<p align="justify">
-&quot;Krishna Engineering College, Ghaziabad is a centre of erudition where we nurture young talents in different fields of Engineering. Our major emphasis of imparting technical training to encourage curiosity and innovativeness among our students and lay a foundation from where they can acquire quick learning ability and adaptively with the fast changing needs of the industry. Our faculty members are experts in the areas they teach. Not only do they provide a solid grounding in the academic theories and concepts of their specialty, they also provide the students challenges facing their discipline. They provide the students the right balance of theory and practice. We emphasize team work to give opportunity to each student to benefit from the ideas and intelligence of their classmates. We continue to strive to meet our mission to mould youth into world-class technocrats of tomorrow who would endeavor to increase the quality of life for human kind. I am confident that our students would be asset to your organization through their technical and managerial capabilities. My aim is to actively assist you in attracting and identifying the individuals best suited to your needs and developing a successful recruitment relationship.&quot;</p><br><br>
-</div>
-</div>
+            <div class="row">
+                                  <div class="col-md-4" align="center">
+                                    <img class="img-responsive" src="<?php echo base_url();?><?php echo $hod->image;?>" width="250"><br><br>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <h4><b><a href="#" target="_blank"><?php echo $hod->name;?></a></b></h4>
+                                    <br>
+                                    <b><?php echo $hod->qualification;?></b><br><br>
+                            <p align="justify">
+                            <?php echo $hod->message;?></p><br><br>
+                            </div>
+                            </div>
 
 
 

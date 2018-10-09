@@ -70,18 +70,18 @@ The students are taught Industrial Psychology and Industrial Sociology with an o
       <div role="tabpanel" class="tab-pane" id="message">
             <h2><b>HOD's Message</b></h2>
             <bR>
-              <div class="row">
-                <div class="col-md-4" align="center">
-                  <img class="img-responsive" src="../../static/images/departments/Humanities/hod/PK_Pathak1_kQmGtnB.jpg" width="250"><br><br>
-                  </div>
-                  <div class="col-md-8">
-                  <h4><b><a href="#" target="_blank">Prof Pradip Kr Pathak</a></b></h4>
-                  <br>
-                  <b>PHD</b><br><br>
-          <p align="justify">
-          Humanities department deals with the subjects that are mainly concerned with human beings whose behavior is highly unpredictable. The subjects taught by Humanities department are highly interactive, experiential and engaging, designed to empower the learner toward the process of analyzing one&#39;s life in relationship to the community in which one lives and works. This helps them achieve the expected results quickly and economically in terms of effective and efficient Management in the business dynamics.<br /><br />Humanities as a unique field of study are a synergy of economics, political science, human psychology, operations research and statistics as well as sociology. It is therefore, to be understood from all these perspectives. The study becomes more dynamic since it is applicable in a vibrant, ever changing and complex environment. The principles, rules and guidelines covered under the curriculum are so versatile that we find its pervasiveness everywhere. They guide probably in all situations, but their interpretations keep on changing in every such situation and from person to person. The department of Humanities is committed to impart adequate knowledge through interactive sessions, role plays, Management by objective (MBO) and case studies apart from regular lectures on different concepts/theories pertaining to Industrial psychology, Industrial sociology, Industrial Management, Engineering economics, Entrepreneurship development and more importantly Human values &amp; professional ethics. In addition, we inculcate among the students, the habit of learning creative skills through active participation in annual literary fest and publication of college magazine “Impression”. I feel proud to lead an intellectual group of faculties. I am also confident that our students would continue to prove their mettle in professional arena and bring laurels to the Institution as a routine.<br /><br />All the best! May God bless!!!!</p><br><br>
-          </div>
-          </div><br><br>
+            <div class="row">
+                                  <div class="col-md-4" align="center">
+                                    <img class="img-responsive" src="<?php echo base_url();?><?php echo $hod->image;?>" width="250"><br><br>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <h4><b><a href="#" target="_blank"><?php echo $hod->name;?></a></b></h4>
+                                    <br>
+                                    <b><?php echo $hod->qualification;?></b><br><br>
+                            <p align="justify">
+                            <?php echo $hod->message;?></p><br><br>
+                            </div>
+                            </div><br><br>
 
 
             </div>
