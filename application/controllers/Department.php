@@ -7,6 +7,7 @@ class Department extends CI_Controller {
         $this->load->model('notice');
         $this->load->model('WhatNew');
         $this->load->model('DepartmentHod');
+        $this->load->model('Faculty');
         $this->load->helper('url_helper');
         }
 
@@ -20,6 +21,7 @@ class Department extends CI_Controller {
         $data['notice'] = $this->notice->notice($page);
         $data['what_new'] = $this->WhatNew->what_new($page);
         $data['hod'] = $this->DepartmentHod->hod($page);
+        $data['faculty'] = $this->Faculty->teacher($page);
         $this->load->helper('url');
         $this->load->view('templates/header');
         $this->load->view('templates/department_notice', $data);

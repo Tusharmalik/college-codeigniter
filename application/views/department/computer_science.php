@@ -90,214 +90,27 @@
                                 <br>
                                 <!-- One row has four images. Notice the class names in column and image. -->
                                 <div class="row">
-                                    
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/arvind_dagur_jEhXvp5.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/1" target="_blank"><h3>Arvind Dagur</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Vaishali_Puranik_usMbB6I.Gif" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/2" target="_blank"><h3>Ms. Vaishali Puranik</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Shikha.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/3" target="_blank"><h3>Ms. Shikha Saxena</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Pramod_Kumar_Sethy_u6EjiHU.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/4" target="_blank"><h3>Mr. Pramod Kumar Sethy</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                    </div>
-                                    <div class="row">
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Deepa_Khurrana.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/5" target="_blank"><h3>Ms. Deepa Khurana</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Sandhya_Avasthi.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/6" target="_blank"><h3>Ms. Sandhya Awasthi</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/rahul_chaturvedi.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/7" target="_blank"><h3>Mr. Rahul Chaturvedi</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Sandeep_Saxena.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/8" target="_blank"><h3>Mr.Sandeep Saxena</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                    </div>
-                                    <div class="row">
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/sharmila.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/9" target="_blank"><h3>Ms. R Sharmila</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Mohit_Jain_TJFEePB.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/10" target="_blank"><h3>Mr. Mohit Jain</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/VISHU_TYAGI.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/11" target="_blank"><h3>Ms. Vishu Tyagi</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Krista_Chaudhary_VfIN4DI.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/12" target="_blank"><h3>Ms. Krista Chaudhary</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                    </div>
-                                    <div class="row">
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Umang_nfJ4Z4T.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/13" target="_blank"><h3>Ms. Umang Kant</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/SHWETA_GARG.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/14" target="_blank"><h3>Ms. Shweta Garg</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Ruchi_Goel.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/15" target="_blank"><h3>Ms. Ruchi Goel</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <div class="thumbnail">
-                                            <img class="faculty" src="../../static/img/faculty/Prerna_Sharma.jpg" style="max-height: 180px">
-                                            <div class="caption">
-                                            <a href="/departments/teacher/16" target="_blank"><h3>Ms. Prerna Sharma</h3></a>
-                                            <b><p>Asst. Professor</p></b>
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                    
-                                    </div>
-                                    <div class="row">
-                                    
-                                
-
-                            <br><br>
+                                <?php $count = 0;?>
+                                <?php foreach ($faculty as $faculty): ?>
+                                <?php if($count%4==0):?>
                                 </div>
+                                <div class="row">
+                                <?php endif ;?>
+                                    <div class="col-md-3 col-sm-6 col-xs-12">
+                                        <div class="thumbnail">
+                                            <img class="faculty" src="<?php echo base_url();?><?php echo $faculty['image'];?>" style="max-height: 180px">
+                                            <div class="caption">
+                                            <a href="/departments/teacher/1" target="_blank"><h3><?php echo $faculty['name'];?></h3></a>
+                                            <b><p><?php echo $faculty['designation'];?></p></b>
+
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <?php $count = $count+1;?>
+                                <?php endforeach;?>
+                                    
+                                
+                                </div>    
                                 </div>
                             <div role="tabpanel" class="tab-pane" id="research">
                                 <h2><b>Research Paper and Workshop Details</b></h2>
